@@ -26,7 +26,7 @@ export const Hero = () => {
   };
 
   return (
-    <section className="h-screen px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <section className="h-full px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="grid gap-10 lg:grid-cols-2">
         <div className="flex flex-col justify-center font-medium lg:pr-10">
           <h5 className="mb-4 text-4xl leading-none text-white">Hi there,</h5>
@@ -39,27 +39,12 @@ export const Hero = () => {
               </span>
             </Typist>
           </h5>
-          <h5 className="mt-16 text-3xl font-bold text-white">
-            <span>
-              {/*  <Typewriter
-                words={words}
-                loop={5}
-                cursor
-                cursorStyle="_"
-                typeSpeed={60}
-                deleteSpeed={50}
-                delaySpeed={1500}
-              /> */}
-            </span>
+          <h5 className="mt-16 text-2xl text-white">
+            <span>I'm a full stack developer</span>
           </h5>
         </div>
-        <div className="pointer-events-none">
+        <div className="order-first pointer-events-none md:order-last ">
           <Lottie options={defaultOptions} />
-          {/*  <img
-            className="object-cover w-full h-56 sm:h-96"
-            src="/programming.svg"
-            alt=""
-          /> */}
         </div>
       </div>
     </section>

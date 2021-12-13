@@ -1,5 +1,7 @@
 import Image from "next/image";
 import React from "react";
+import Scroll from "react-scroll";
+const Link = Scroll.Link;
 
 export const Navbar = () => {
   return (
@@ -17,9 +19,38 @@ export const Navbar = () => {
           </div>
 
           <nav className="hidden space-x-8 font-medium text-white text-md md:flex">
-            <a>About</a>
-            <a>Projects</a>
-            <a href="">Contact Me</a>
+            <Link
+              to="home"
+              spy={true}
+              smooth={true}
+              offset={-76}
+              duration={500}
+              className="border-b-2 border-transparent"
+              activeClass="border-orange-500"
+            >
+              Home
+            </Link>
+            <Link
+              to="about"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className="border-b-2 border-transparent"
+              activeClass="border-orange-500"
+            >
+              About
+            </Link>
+            <Link
+              to="projects"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              className="border-b-2 border-transparent"
+              activeClass="border-orange-500"
+            >
+              Projects
+            </Link>
           </nav>
 
           <div className="items-center justify-end flex-1 hidden space-x-4 md:flex">
