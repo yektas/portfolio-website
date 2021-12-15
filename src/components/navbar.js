@@ -77,7 +77,7 @@ export default function Navbar() {
                         smooth={true}
                         duration={500}
                         className="px-3 py-2 text-sm font-medium text-white border-b-2 border-transparent cursor-pointer"
-                        activeClass="border-orange-500"
+                        activeclassName="border-orange-500"
                         key={item.name}
                         href={item.href}
                       >
@@ -89,10 +89,13 @@ export default function Navbar() {
               </div>
               <div className="absolute inset-y-0 right-0 items-center hidden pr-2 sm:flex sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 <a
-                  href=""
-                  class="inline-block p-0.5 rounded-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500"
+                  href="https://www.linkedin.com/in/sercanyektas/"
+                  target="_blank"
+                  rel="noreferrer"
+                  ariaLabel="LinkedIn"
+                  className="inline-block p-0.5 rounded-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500"
                 >
-                  <span class="block lg:px-4 lg:py-2 px-2 py-1 lg:text-md text-sm lg:font-medium text-white bg-gray-900 rounded-full hover:bg-opacity-75">
+                  <span className="block px-2 py-1 text-sm text-white bg-gray-900 rounded-full lg:px-4 lg:py-2 lg:text-md lg:font-medium hover:bg-opacity-75">
                     Let's Connect
                   </span>
                 </a>
@@ -110,7 +113,7 @@ export default function Navbar() {
                     smooth={true}
                     duration={500}
                     className="block px-3 py-2 text-base font-medium text-gray-300 rounded-md hover:bg-gray-800 hover:text-white"
-                    activeClass="bg-gray-900 text-white"
+                    activeclassName="bg-gray-900 text-white"
                     key={item.name}
                     href={item.href}
                   >
@@ -118,10 +121,13 @@ export default function Navbar() {
                   </ScrollLink>
                 ))}
                 <a
-                  href=""
-                  class="inline-block p-0.5 rounded-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500"
+                  href="https://www.linkedin.com/in/sercanyektas/"
+                  target="_blank"
+                  rel="noreferrer"
+                  ariaLabel="LinkedIn"
+                  className="inline-block p-0.5 rounded-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500"
                 >
-                  <span class="block lg:px-4 lg:py-2 px-2 py-1 lg:text-md text-sm lg:font-medium text-white bg-gray-900 rounded-full hover:bg-opacity-75">
+                  <span className="block px-2 py-1 text-sm text-white bg-gray-900 rounded-full lg:px-4 lg:py-2 lg:text-md lg:font-medium hover:bg-opacity-75">
                     Let's Connect
                   </span>
                 </a>

@@ -21,7 +21,7 @@ export const Hero = () => {
 
   return (
     <section className="h-full px-4 py-4 mx-auto lg:py-12 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
-      <div className="grid gap-10 lg:grid-cols-2">
+      <div className="grid gap-4 lg:grid-cols-2">
         <div className="flex flex-col justify-center font-medium lg:pr-10">
           <h5 className="mb-4 text-4xl leading-none text-white">Hi there,</h5>
 
@@ -37,7 +37,7 @@ export const Hero = () => {
             <span>💻 Full Stack Developer</span>
           </h5>
         </div>
-        <div className="order-first pointer-events-none md:order-last ">
+        <div className="order-first mt-8 pointer-events-none md:order-last lg:mt-0">
           <Lottie options={defaultOptions} />
         </div>
       </div>
