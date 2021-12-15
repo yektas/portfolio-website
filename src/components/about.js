@@ -14,7 +14,7 @@ const About = () => {
   };
 
   return (
-    <div class="max-w-7xl px-4 py-8 mx-auto">
+    <div class="max-w-7xl px-4 py-2 lg:py-8 mx-auto">
       <section class="p-8 bg-gray-900  rounded-lg ">
         <div class="grid grid-cols-1 sm:grid-cols-3 sm:items-center">
           <div class="relative">
@@ -23,26 +23,23 @@ const About = () => {
             </div>
           </div>
 
-          <div class="sm:col-span-2  h-full  flex flex-col text-xl sm:text-xl ">
+          <div class="sm:col-span-2  h-full  flex flex-col text-md lg:text-xl ">
             <div class="col-span-3 col-end-5 mb-6">
-              <h2 class="text-3xl text-white sm:text-4xl">About Me</h2>
+              <h2 class="text-2xl text-white sm:text-4xl">About Me</h2>
               <hr class="mt-2 h-1 w-40 self-center bg-purple-600 " />
             </div>
-            <p className="leading-relaxed text-white">
-              Hi, I'm an experienced full stack developer. I have developed web
-              applications and their backend services many times. I'm always
-              passionate about learning new skills and new technologies.
+            <p className="leading-relaxed text-white ">
+              Hi, I'm a full stack developer with 4 years of experience. I have
+              developed web applications and their backend services many times.
+              I'm always passionate about learning new skills and new
+              technologies.
             </p>
             <br />
             <p className="leading-relaxed text-white">
-              Currently working on the{" "}
-              <span className="text-orange-500 decoration-orange-500">
-                Blockchain Technology
-              </span>{" "}
-              and{" "}
-              <span className=" decoration-sky-500 text-sky-500">
-                Smart Contracts
-              </span>
+              Currently learning the{" "}
+              <span className="text-orange-500 ">Blockchain Technology,</span>{" "}
+              <span className="text-purple-500 ">Web3</span> and{" "}
+              <span className=" decoration-sky-500 text-sky-500">Solidity</span>
               .
             </p>
           </div>

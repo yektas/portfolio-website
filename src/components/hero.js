@@ -9,12 +9,6 @@ import Lottie from "react-lottie";
 import * as animationData from "../animations/programming.json";
 
 export const Hero = () => {
-  const words = [
-    "Full Stack Developer",
-    "Blockchain Enthusiast",
-    "Solidity Developer",
-  ];
-
   const defaultOptions = {
     loop: true,
     autoplay: true,
@@ -26,7 +20,7 @@ export const Hero = () => {
   };
 
   return (
-    <section className="h-full px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <section className="h-full px-4 py-4 mx-auto lg:py-12 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
       <div className="grid gap-10 lg:grid-cols-2">
         <div className="flex flex-col justify-center font-medium lg:pr-10">
           <h5 className="mb-4 text-4xl leading-none text-white">Hi there,</h5>
@@ -39,8 +33,8 @@ export const Hero = () => {
               </span>
             </Typist>
           </h5>
-          <h5 className="mt-16 text-2xl text-white">
-            <span>I'm a full stack developer</span>
+          <h5 className="mt-8 text-2xl text-white">
+            <span>💻 Full Stack Developer</span>
           </h5>
         </div>
         <div className="order-first pointer-events-none md:order-last ">

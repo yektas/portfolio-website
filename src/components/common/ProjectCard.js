@@ -2,7 +2,7 @@ import React from "react";
 
 export const ProjectCard = () => {
   return (
-    <div class="relative">
+    <div class="relative col-span-1">
       <img
         class="object-cover w-full h-64 rounded-lg"
         src="https://www.hyperui.dev/photos/shoe-1.jpeg"
@@ -10,15 +10,8 @@ export const ProjectCard = () => {
       />
 
       <div class="relative z-10 p-8 mx-6 -mt-2 text-center text-white bg-gray-700 shadow-xl  rounded-lg">
-        <h5 class="text-2xl font-medium ">
-          Navigate to the future, don't get lost in the past
-        </h5>
-        <p className="pt-4 text-gray-300">
-          Enim id sit velit voluptate irure fugiat. Ea pariatur cillum voluptate
-          deserunt officia aute. Commodo nostrud ad enim ipsum dolore anim
-          consectetur eiusmod do consectetur tempor deserunt. Irure sint qui eu
-          deserunt magna exercitation sit laboris.
-        </p>
+        <h5 class="text-2xl font-medium ">Project Name</h5>
+        <p className="pt-4 text-gray-300">WIP</p>
 
         <div className="flex mt-4 justify-evenly">
           <a
