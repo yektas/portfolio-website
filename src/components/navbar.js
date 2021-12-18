@@ -77,7 +77,7 @@ export default function Navbar() {
                         smooth={true}
                         duration={500}
                         className="px-3 py-2 text-sm font-medium text-white border-b-2 border-transparent cursor-pointer"
-                        activeclassName="border-orange-500"
+                        activeClass="border-orange-500"
                         key={item.name}
                         href={item.href}
                       >
@@ -113,7 +113,7 @@ export default function Navbar() {
                     smooth={true}
                     duration={500}
                     className="block px-3 py-2 text-base font-medium text-gray-300 rounded-md hover:bg-gray-800 hover:text-white"
-                    activeclassName="bg-gray-900 text-white"
+                    activeClass="bg-gray-900 text-white"
                     key={item.name}
                     href={item.href}
                   >
