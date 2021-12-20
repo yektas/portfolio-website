@@ -14,60 +14,58 @@ const About = () => {
   };
 
   return (
-    <div class="max-w-7xl px-4 py-2 lg:py-8 mx-auto">
-      <section class="p-8 bg-gray-900  rounded-lg ">
-        <div class="grid grid-cols-1 sm:grid-cols-3 sm:items-center">
-          <div class="relative">
-            <div class="aspect-w-1 aspect-h-1">
+    <div className="px-4 py-2 mx-auto max-w-7xl lg:py-8">
+      <section className="p-8 bg-gray-900 rounded-lg ">
+        <div className="grid grid-cols-1 sm:grid-cols-3 sm:items-center">
+          <div className="relative">
+            <div className="aspect-w-1 aspect-h-1">
               <Lottie options={defaultOptions} />
             </div>
           </div>
 
-          <div class="sm:col-span-2  h-full  flex flex-col text-md lg:text-xl ">
-            <div class="col-span-3 col-end-5 mb-6">
-              <h2 class="text-2xl text-white sm:text-4xl">About Me</h2>
-              <hr class="mt-2 h-1 w-40 self-center bg-purple-600 " />
+          <div className="flex flex-col h-full sm:col-span-2 text-md lg:text-xl ">
+            <div className="col-span-3 col-end-5 mb-6">
+              <h2 className="text-2xl text-white sm:text-4xl">About Me</h2>
+              <hr className="self-center w-40 h-1 mt-2 bg-purple-600 " />
             </div>
             <p className="leading-relaxed text-white ">
-              Hi, I'm a full stack developer with 4 years of experience. I have
-              developed web applications and their backend services many times.
-              I'm always passionate about learning new skills and new
-              technologies.
+              Hi, I'm a full stack developer with 4 years of experience. I have developed web
+              applications and their backend services many times. I'm always passionate about
+              learning new skills and new technologies.
             </p>
             <br />
             <p className="leading-relaxed text-white">
               Currently learning the{" "}
               <span className="text-orange-500 ">Blockchain Technology,</span>{" "}
               <span className="text-purple-500 ">Web3</span> and{" "}
-              <span className=" decoration-sky-500 text-sky-500">Solidity</span>
-              .
+              <span className=" decoration-sky-500 text-sky-500">Solidity</span>.
             </p>
           </div>
         </div>
       </section>
     </div>
-    /*  <section class="bg-gray-900">
-      <div class="max-w-screen-xl px-4 py-16 mx-auto space-y-8 sm:px-6 lg:px-8">
-        <div class="text-center flex flex-col">
-          <h2 class="text-3xl text-white sm:text-4xl">About Me</h2>
-          <hr class="mt-2 h-1 w-24 self-center bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 " />
+    /*  <section className="bg-gray-900">
+      <div className="max-w-screen-xl px-4 py-16 mx-auto space-y-8 sm:px-6 lg:px-8">
+        <div className="flex flex-col text-center">
+          <h2 className="text-3xl text-white sm:text-4xl">About Me</h2>
+          <hr className="self-center w-24 h-1 mt-2 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 " />
         </div>
 
-        <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           <a
             href=""
-            class="relative block p-8 pb-24 border-t-4 border-pink-600 rounded-sm shadow-xl"
+            className="relative block p-8 pb-24 border-t-4 border-pink-600 rounded-sm shadow-xl"
           >
-            <h5 class="text-4xl text-white font-bold">Solidity</h5>
-            {/*             <p class="mt-4 text-lg font-medium text-gray-500">
+            <h5 className="text-4xl font-bold text-white">Solidity</h5>
+            {/*             <p className="mt-4 text-lg font-medium text-gray-500">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Repudiandae, provident.
             </p> 
 
-            <span class="absolute bottom-8 right-8">
+            <span className="absolute bottom-8 right-8">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="w-10 h-10 text-pink-600"
+                className="w-10 h-10 text-pink-600"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -83,9 +81,9 @@ const About = () => {
           </a>
         </div>
 
-        <div class="text-center">
+        <div className="text-center">
           <a
-            class="inline-block px-5 py-3 text-sm font-medium text-white bg-blue-500 rounded-lg"
+            className="inline-block px-5 py-3 text-sm font-medium text-white bg-blue-500 rounded-lg"
             href=""
           >
             Find out more
