@@ -15,14 +15,20 @@ export const Projects = () => {
         <div className="col-span-2 lg:col-span-1">
           <ProjectCard
             name="Auction Dapp"
-            description="This demo is an auction application which users can bid on products listed by the contract owner and also claim the product when the bidding time is finished"
+            description="This demo is an auction application which users can bid on products listed by the contract owner and also claim the product when the bidding time is finished."
             demoSite="https://auction-dapp-mn2gwmu3c-yektas.vercel.app"
             githubLink="https://github.com/yektas/auction-dapp"
             image="https://res.cloudinary.com/yektas/image/upload/v1639957696/Portfolio%20Website/gtlkrydl22swhzffmfuf.gif"
           />
         </div>
         <div className="col-span-2 lg:col-span-1">
-          <ProjectCard />
+          <ProjectCard
+            name="Pianorium"
+            description="A local piano lecturer's website to advertise and keep in touch with the new students."
+            demoSite="https://pianorium.com"
+            githubLink="https://github.com/yektas/pianoriumFrontend"
+            image="https://res.cloudinary.com/yektas/image/upload/v1640034338/Portfolio%20Website/mz1yal2hui3w3nxphx47.jpg"
+          />
         </div>
       </div>
     </div>

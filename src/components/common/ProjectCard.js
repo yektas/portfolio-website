@@ -4,7 +4,7 @@ export const ProjectCard = ({ name, description, githubLink, demoSite, image }) 
   return (
     <div className="relative col-span-1">
       <img
-        className="object-cover w-full rounded-lg h-72"
+        className="object-cover w-full border-2 border-gray-800 rounded-lg h-72"
         src={image || "https://www.hyperui.dev/photos/shoe-1.jpeg"}
         alt=""
       />
@@ -18,7 +18,7 @@ export const ProjectCard = ({ name, description, githubLink, demoSite, image }) 
             href={githubLink}
             rel="noreferrer"
             target="_blank"
-            className="px-5 py-3 font-medium text-white transition transform bg-purple-600 rounded-lg inline-bloc hover:scale-110 hover:shadow-xl"
+            className="px-2 py-3 font-medium text-white transition transform bg-purple-600 rounded-lg md:px-5 inline-bloc hover:scale-105 md:hover:scale-110 hover:shadow-xl"
           >
             View Code
           </a>
@@ -27,7 +27,7 @@ export const ProjectCard = ({ name, description, githubLink, demoSite, image }) 
             href={demoSite}
             rel="noreferrer"
             target="_blank"
-            className="px-5 py-3 font-medium text-white transition transform bg-purple-600 rounded-lg inline-bloc hover:scale-110 hover:shadow-xl"
+            className="px-2 py-3 font-medium text-white transition transform bg-purple-600 rounded-lg md:px-5 inline-bloc hover:scale-105 md:hover:scale-110 hover:shadow-xl"
           >
             Live Demo
           </a>
