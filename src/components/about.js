@@ -26,7 +26,7 @@ const About = () => {
           <div className="flex flex-col h-full sm:col-span-2 text-md lg:text-xl ">
             <div className="col-span-3 col-end-5 mb-6">
               <h2 className="text-2xl text-white sm:text-4xl">About Me</h2>
-              <hr className="self-center w-40 h-1 mt-2 bg-purple-600 " />
+              <div className="self-center w-40 h-1 mt-2 bg-purple-600 rounded-lg"></div>
             </div>
             <p className="leading-relaxed text-white ">
               Hi, I'm a full stack developer with 4 years of experience. I have developed web

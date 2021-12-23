@@ -7,7 +7,7 @@ export const Projects = () => {
       <section className="p-8 bg-gray-900 rounded-lg ">
         <div className="col-span-3 col-end-5 mb-6">
           <h2 className="text-2xl text-white sm:text-4xl">Projects</h2>
-          <hr className="self-center w-40 h-1 mt-2 bg-purple-600 " />
+          <div className="self-center w-40 h-1 mt-2 bg-purple-600 rounded-lg"></div>
         </div>
       </section>
 
