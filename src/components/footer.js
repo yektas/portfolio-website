@@ -6,14 +6,8 @@ export const Footer = () => {
       <div className="max-w-screen-xl px-4 py-12 mx-auto sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto space-y-6">
           <p className="font-medium text-white ">
-            Coded with{" "}
-            <img
-              className="inline w-4 m-0 mr-1"
-              src="/heart.svg"
-              alt="Heart Icon"
-            />
-            by <span className="font-bold text-orange-500 ">Sercan Yektas</span>{" "}
-            and built with
+            Coded with <img className="inline w-4 m-0 mr-1" src="/heart.svg" alt="Heart Icon" />
+            by <span className="font-bold text-orange-500 ">Sercan Yektas</span> and built with
             <a href="https://nextjs.org/">
               <img
                 className="inline w-12 h-12 m-0 ml-2 text-white"
@@ -28,7 +22,7 @@ export const Footer = () => {
               href="https://twitter.com/syektas"
               target="_blank"
               rel="noreferrer"
-              ariaLabel="Twitter"
+              aria-label="Twitter"
               className="inline w-6 h-6 text-blue-500 fill-current hover:text-blue-400"
             >
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -41,7 +35,7 @@ export const Footer = () => {
               href="https://github.com/yektas"
               target="_blank"
               rel="noreferrer"
-              ariaLabel="Github"
+              aria-label="Github"
               className="inline w-6 h-6 text-gray-100 fill-current hover:text-gray-400"
             >
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -54,15 +48,10 @@ export const Footer = () => {
               href="https://www.linkedin.com/in/sercanyektas/"
               target="_blank"
               rel="noreferrer"
-              ariaLabel="LinkedIn"
+              aria-label="LinkedIn"
               className="inline w-6 h-6 text-white rounded-sm fill-current hover:text-blue-500"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-              >
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                 <path d="M0 0v24h24v-24h-24zm8 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.397-2.586 7-2.777 7 2.476v6.759z" />
               </svg>
             </a>

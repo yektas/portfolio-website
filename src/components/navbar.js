@@ -33,12 +33,9 @@ export default function Navbar() {
   return (
     <Disclosure
       as="nav"
-      className={clsx(
-        "fixed z-50 w-full transition-all ease-in-out duration-200",
-        {
-          "bg-gray-800 shadow-xl": scrolled,
-        }
-      )}
+      className={clsx("fixed z-50 w-full transition-all ease-in-out duration-200", {
+        "bg-gray-800 shadow-xl": scrolled,
+      })}
     >
       {({ open }) => (
         <>
@@ -92,7 +89,7 @@ export default function Navbar() {
                   href="https://www.linkedin.com/in/sercanyektas/"
                   target="_blank"
                   rel="noreferrer"
-                  ariaLabel="LinkedIn"
+                  aria-label="LinkedIn"
                   className="inline-block p-0.5 rounded-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500"
                 >
                   <span className="block px-2 py-1 text-sm text-white bg-gray-900 rounded-full lg:px-4 lg:py-2 lg:text-md lg:font-medium hover:bg-opacity-75">
@@ -124,7 +121,7 @@ export default function Navbar() {
                   href="https://www.linkedin.com/in/sercanyektas/"
                   target="_blank"
                   rel="noreferrer"
-                  ariaLabel="LinkedIn"
+                  aria-label="LinkedIn"
                   className="inline-block p-0.5 rounded-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500"
                 >
                   <span className="block px-2 py-1 text-sm text-white bg-gray-900 rounded-full lg:px-4 lg:py-2 lg:text-md lg:font-medium hover:bg-opacity-75">

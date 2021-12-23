@@ -8,7 +8,7 @@ import { Projects } from "../components/projects";
 import { Footer } from "../components/footer";
 export default function Home() {
   return (
-    <div className="bg-gray-900">
+    <div className="bg-gray-900 ">
       <Navbar />
       <main>
         <Element id="home" name="home">
