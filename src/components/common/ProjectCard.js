@@ -4,7 +4,7 @@ export const ProjectCard = ({ name, description, githubLink, demoSite, image }) 
   return (
     <div className="relative col-span-1">
       <img
-        className="object-cover w-full border-2 border-gray-800 rounded-lg h-72"
+        className="object-cover w-full border-2 border-gray-800 rounded-lg h-[28rem]"
         src={image || "https://www.hyperui.dev/photos/shoe-1.jpeg"}
         alt=""
       />

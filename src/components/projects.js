@@ -14,6 +14,15 @@ export const Projects = () => {
       <div className="grid grid-cols-2 gap-10">
         <div className="col-span-2 lg:col-span-1">
           <ProjectCard
+            name="NFT Marketplace"
+            description="This is an NFT marketplace application that you can buy and sell NFTs. I have also created an NFT collection based on my dog photos :)"
+            demoSite="https://nft-marketplace-kappa.vercel.app"
+            githubLink="https://github.com/yektas/nft-marketplace"
+            image="https://user-images.githubusercontent.com/9054528/147789460-68952b2d-5cb4-433a-b8c3-b7e578f4af77.png"
+          />
+        </div>
+        <div className="col-span-2 lg:col-span-1">
+          <ProjectCard
             name="Auction Dapp"
             description="This demo is an auction application which users can bid on products listed by the contract owner and also claim the product when the bidding time is finished."
             demoSite="https://auction-dapp-mn2gwmu3c-yektas.vercel.app"
