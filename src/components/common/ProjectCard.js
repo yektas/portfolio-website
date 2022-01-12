@@ -1,6 +1,8 @@
 import React from "react";
 
-export const ProjectCard = ({ name, description, githubLink, demoSite, image }) => {
+export const ProjectCard = ({ project }) => {
+  const { name, description, githubLink, demoSite, image } = project;
+
   return (
     <div className="relative col-span-1">
       <img
@@ -18,6 +20,7 @@ export const ProjectCard = ({ name, description, githubLink, demoSite, image }) 
             href={githubLink}
             rel="noreferrer"
             target="_blank"
+            disabled={!githubLink}
             className="px-2 py-3 font-medium text-white transition transform bg-purple-600 rounded-lg md:px-5 inline-bloc hover:scale-105 md:hover:scale-110 hover:shadow-xl"
           >
             View Code

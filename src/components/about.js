@@ -14,8 +14,8 @@ const About = () => {
   };
 
   return (
-    <div className="px-4 py-2 mx-auto max-w-7xl lg:py-8">
-      <section className="p-8 bg-gray-900 rounded-lg ">
+    <section className="px-4 py-2 mx-auto max-w-7xl lg:py-8">
+      <div className="p-8 bg-gray-900 rounded-lg ">
         <div className="grid grid-cols-1 sm:grid-cols-3 sm:items-center">
           <div className="relative">
             <div className="aspect-w-1 aspect-h-1">
@@ -42,55 +42,8 @@ const About = () => {
             </p>
           </div>
         </div>
-      </section>
-    </div>
-    /*  <section className="bg-gray-900">
-      <div className="max-w-screen-xl px-4 py-16 mx-auto space-y-8 sm:px-6 lg:px-8">
-        <div className="flex flex-col text-center">
-          <h2 className="text-3xl text-white sm:text-4xl">About Me</h2>
-          <hr className="self-center w-24 h-1 mt-2 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 " />
-        </div>
-
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-          <a
-            href=""
-            className="relative block p-8 pb-24 border-t-4 border-pink-600 rounded-sm shadow-xl"
-          >
-            <h5 className="text-4xl font-bold text-white">Solidity</h5>
-            {/*             <p className="mt-4 text-lg font-medium text-gray-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repudiandae, provident.
-            </p> 
-
-            <span className="absolute bottom-8 right-8">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="w-10 h-10 text-pink-600"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M13 10V3L4 14h7v7l9-11h-7z"
-                />
-              </svg>
-            </span>
-          </a>
-        </div>
-
-        <div className="text-center">
-          <a
-            className="inline-block px-5 py-3 text-sm font-medium text-white bg-blue-500 rounded-lg"
-            href=""
-          >
-            Find out more
-          </a>
-        </div>
       </div>
-    </section> */
+    </section>
   );
 };
 
