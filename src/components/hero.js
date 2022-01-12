@@ -34,7 +34,7 @@ export const Hero = () => {
             </Typist>
           </h5>
           <h5 className="mt-8 text-2xl text-white">
-            <span>💻 Full Stack Developer</span>
+            <span>💻 Full Stack Blockchain Developer</span>
           </h5>
         </div>
         <div className="order-first mt-8 pointer-events-none md:order-last lg:mt-0">
