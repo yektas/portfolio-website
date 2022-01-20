@@ -86,10 +86,10 @@ export default function Navbar() {
               </div>
               <div className="absolute inset-y-0 right-0 items-center hidden pr-2 sm:flex sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 <a
-                  href="https://www.linkedin.com/in/sercanyektas/"
+                  href="https://linktr.ee/syektas"
                   target="_blank"
                   rel="noreferrer"
-                  aria-label="LinkedIn"
+                  aria-label="Linktree"
                   className="inline-block p-0.5 rounded-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500"
                 >
                   <span className="block px-2 py-1 text-sm text-white bg-gray-900 rounded-full lg:px-4 lg:py-2 lg:text-md lg:font-medium hover:bg-opacity-75">
@@ -118,7 +118,7 @@ export default function Navbar() {
                   </ScrollLink>
                 ))}
                 <a
-                  href="https://linktr.ee/syektas"
+                  href="https://www.linkedin.com/in/sercanyektas/"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="LinkedIn"
