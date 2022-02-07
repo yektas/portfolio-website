@@ -6,7 +6,8 @@ export const ProjectCard = ({ project }) => {
   return (
     <div className="relative col-span-1">
       <img
-        className="object-cover w-full border-2 border-gray-800 rounded-lg h-[28rem]"
+        onClick={() => window.open(demoSite, "_blank")}
+        className="object-cover w-full border-2 border-gray-800 rounded-lg h-[24rem] cursor-pointer"
         src={image || "https://www.hyperui.dev/photos/shoe-1.jpeg"}
         alt=""
       />

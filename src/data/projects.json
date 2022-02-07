@@ -1,10 +1,24 @@
 [
   {
+    "name": "ENS",
+    "description": "My own implementation of Ethereum Name Service (ENS). You can use it to register your own .awesome domain and resolve them to your own address.",
+    "demoSite": "https://ens-eight.vercel.app/",
+    "githubLink": "https://github.com/yektas/ens",
+    "image": "https://user-images.githubusercontent.com/9054528/152707544-1dd6bf88-e5f4-4a4f-a0c2-761bfa2fd048.png"
+  },
+  {
     "name": "NFT Marketplace",
     "description": "This is an NFT marketplace application that you can buy and sell NFTs. I have also created an NFT collection based on my dog photos :)",
     "demoSite": "https://nft-marketplace-kappa.vercel.app",
     "githubLink": "https://github.com/yektas/nft-marketplace",
     "image": "https://user-images.githubusercontent.com/9054528/147789460-68952b2d-5cb4-433a-b8c3-b7e578f4af77.png"
+  },
+  {
+    "name": "Chain Explorer",
+    "description": "This application fetches the data from Energi's main network and shows data about the blockchain and transactions.",
+    "demoSite": "https://chain-explorer.vercel.app/",
+    "githubLink": "https://github.com/yektas/chain-explorer",
+    "image": "https://user-images.githubusercontent.com/9054528/151487389-0381230f-7874-4576-a6c5-306a21abb43b.png"
   },
   {
     "name": "Auction Dapp",
